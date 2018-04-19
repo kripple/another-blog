@@ -1,0 +1,69 @@
+---
+title: "BTI Goes International"
+date: 2016-06-07
+draft: false
+tags: ["bti360","reflection","travel"]
+---
+
+I started with BTI in January. On June 1st, a mere five months later, I found myself on a fully funded international plane ride to the Dominican Republic, alongside an assorted group of BTI teammates and their spouses. Why in the world did BTI send us to the DR, you may ask? We returned to the states a few days ago, and I think I may have a few of the answers. Before we get to that, let me go through what exactly we were doing hundreds of miles from home.
+
+## Travel Day - Humble Beginnings
+I walked into this experience energized, with no expectations, and wholly unprepared for the grueling emotional workout that awaited. I had signed up a month prior to sponsor a child in the DR, having no notion of what that even meant. I know now that sponsorship costs $38 per month, but I didn't know seven days ago when we began this journey, because BTI covers the cost if a teammate would like to sponsor a child. All I knew was that it was recommended we bring a backpack - a sort of care package for the child - because we would have the opportunity to meet them and give them things. Since I wasn't sure what to get I pulled a page out of my mother's book and picked up anything I could think of that could possibly be useful - solar things, school things, toiletries, even a stuffed bunny.
+
+We arrived in the DR and met our guides at the airport. We numbered thirteen travelers, some of whom had gone on this trip before. I forgot to mention - this is not the first time BTI has gone to the DR. It's not the second, or even the third. BTI has been doing this particular trip for the better part of a decade. We hadn't done a thing yet, but I was already starting to get the sense that something special was going to happen in the next few days.
+
+## Day 1 - Sucker Punch
+### Bayona
+The very first thing we did in the DR was something called "A Day in the Life". We went to a place called Bayona, where I was to meet my sponsored child, Sarah. On the bus ride over I learned that only 1% of sponsored children ever meet their sponsor. The norm is to communicate via letter. To visit in person is highly unusual. Our guide went on to share with us that the families we would be visiting had likely known of our arrival for about a month, and that they would have prepared for this event as though it were a special occasion. It is a special occasion, only I didn't know it until the bus ride over. Needless to say, my excitement was rapidly being replaced by some killer nerves. What in the world was this child going to make of me? I was terrified of disappointing her somehow.
+
+When I finally did meet Sarah, I made sure to give her the stuffed bunny right away. She seemed about as terrified as I felt, and seemed confused about the process of translating from one language to another. Our translator was wonderful. We learned that Sarah's favorite color was pink, and we didn't learn much else. Then it was time for our home visit.
+
+
+Me, Sarah, and Bunny.
+The larger BTI team was visiting four houses, so I wasn't going to be on my own. Sarah's grandma stopped by in their car and drove Sarah to their house, the rest of our group hoofed it the short distance to their home. We learned that Sarah lived with her mother, her grandmother, her younger sister, and her uncle. Grandma seemed middle-aged, mom was 20, uncle seemed 10 or 11, and little sis Jaylene was an adorable and precocious 3 years old. Grandma was more relatable than I possibly could have imagined, even though she spoke no English at all. When asked about the greatest difference the Compassion program had made for their family, Grandma responded, "I'm more joyful." It was my first teaching moment in a trip full of them.
+
+The home visit was unexpectedly emotional for me. We spent time in their living room, chatting as the rain drummed contentedly on the roof. We went to the local grocery with them, walking along scenic and charming streets. We cooked a meal with them, and I got to clean some dishes. This lovely family did not seem like they were in hardship. It was only as we heard how food was very expensive for them, and that they were relying on dad to pay for school for Sarah, and he had stopped doing that, that we could get a sense that they needed and wanted help. They welcomed us - these foreign strangers - warmly into their home, showed us how they lived, where they slept. I've experienced nothing like it before. If anything, this family seemed only to want us to know them, to see them, and to understand them. I know I'll not be forgetting them anytime soon.
+
+
+(Left) The little ones and I cheesin' with Mom looking on. (Right) Sarah opening Compassion's home gift.
+### Gualey
+That afternoon we went to Gualey - one of the most dangerous areas in the DR. We had almost as many guides as we did group members. They served the secondary purpose of keeping us safe. Gualey did not feel safe in any way. The people seemed hostile, and the environment itself was treacherous. We climbed down steep, shockingly slippery steps to get there. The area does not smell very nice, and it's crowded. There were people everywhere, and none of them seemed happy to see us. I couldn't wait to leave the area, and at the same time my heart was breaking, because the scowling people we walked past would not be able to do the same.
+
+Our team dinners and long bus rides made all the difference on this trip. Every single person on this trip was willing to share and to listen. Having that support allowed me to deal with and process the emotional drops without falling apart.
+
+
+The Dream Team.
+## Day 2 - Clean Water and Baseball
+### San Cristobol
+Today was so much fun! When we arrived the community had a show prepared for us - singing and dancing. It was a wonderful contrast from the previous afternoon. We had a tour of the water plant that BTI funded, the water plant that's brought clean water to an area that previously had none. The little ones that used to get sick are now safe from water-borne illness. And then we got to play baseball with the community. I impressed the baseball coach (and myself, if I'm being honest) by hitting two for two for our team.
+
+
+Proof! The gentleman in the blue cap is the baseball coach.
+In the afternoon we went on home visit #2. I went with a small group of us to visit with Josias - a child sponsored by my work mentor Chris. Chris went on this trip last year, and seemed to have made quite an impression on this kid. When we arrived on the doorstep of their quaint rural home, Josias met us holding a photo book that Chris had given him the year prior. We learned from his mother that Josias had been upset to the point of tears after Chris had left, and that Josias had been waiting hours for us to arrive. Unfortunately for everyone, Josias had assumed that Chris would be with us. His disapointment in realizing that was not the case was plain on his face for much of our visit. We did have a backpack for Josias from Chris that included a Washington Nationals cap and a new baseball mitt. Though the visit wasn't quite what he had expected, I'm sure Josias appreciated playing catch for a little while with one of the men in our group.
+
+
+Dave (left) played catch with Josias while the rest of us were chatting in the living room.
+### Testimonials
+In the evening after dinner we heard from young adults that had graduated the sponsorship program. We got to hear some of their life stories, including the impact their sponsor had made on their lives. Three moments stood out to me.
+
+The first was the entirety of the first testimonial. The story was compelling, but what got to me was the emotion and weight behind the words. Have you ever had difficulty speaking past the tears in your throat? Well that was what Daniel did for us, for a solid 10 minutes at least. I felt honored that he would trust us with his story in that way.
+
+The second moment was from another speaker, Jon. When Jon was born his father had been married to, and had a family with, another woman. Somewhere around Jon's seventh birthday, his father turned him away, calling him a mistake. Jon said that later that same month he received a letter from his sponsor telling him how grateful she was for their relationship and that he was important to her. His sponsor had no idea what was going on in Jon's life, but managed to make a huge difference regardless.
+
+The last moment that stands out to me was also from Jon. His sponsor had been writing to him and telling him about a family member that had been diagnosed with cancer. Jon spoke to our group and said (I'm paraphrasing, but I'll never forget the sentiment) - "She had no idea that choosing to sponsor a child would help her too. I prayed for her and I prayed for her family." Jon said this to our group with a sense of quiet pride in his voice and demeanor. I remember thinking how absurd it was that this child with so little would find it so important to extend himself that way. How incredible it was that he fully believed he had the power to make a positive impact on the world and on the lives of others. It occurred to me in that moment that such belief was in itself a self-fulfilling prophesy. That all any of us really need to make a difference is faith that we can. I am certain that Jon's sponsor was more than a little responsible for the strength of the fire in his heart.
+
+We concluded our evening with a group prayer. I don't think I've ever felt more connected, or more emotional than I did in that room that night. I'm not religious, and indeed I don't recall any of the words that were said. What I do remember is the naked emotion I saw on people's faces. Many tears were shed that evening, mine as well as others.
+
+## Day 3 - Play Day
+
+(Right) Meeting for the second and last time (at least for this trip). (Left) Sisters looking at a picture of sisters.
+Our last day had finally arrived. We spent it with our sponsored children at a waterpark. This day was rewarding in that, as the day wore on, the children started to act more like kids - loud, laughing, and carefree. I got to go down the big kid water slide with my sponsored child Sarah, and give her the backpack full of goodies. The giving of presents, while fun, felt far less meaningful than the time we had spent in her home. It was the small gifts that seemed to matter the most - the stuffed bunny, a pretty woven hat, a book of photos of me and my family. I got the sense that these kids didn't have much, if anything, they called 'mine'.
+
+At the end of the play day we took a bunch of pictures, said te amo, I love you, and went our separate ways.
+
+## Conclusions
+Back to the beginning, why did we do this? To quote one of my favorite speakers, Shawn Achor, “Every moment of high human potential occurs amidst stress, not the absence of it.” In shoving us firmly out of our comfort zones, this trip accomplished what any self-respecting team building event tries to do: build real bonds of trust and support between team members.
+
+I left the DR inspired and newly invigorated to make a difference in the world and in my life - something I had put on hold for months, if not years. I intend to return to the DR in a few year's time, hopefully with improved Spanish speaking abilities. I would love to hold an actual in-person conversation with Sarah one day. In addition, I started looking into the possibility of sponsoring another child in another country, this time with my own funds.
+
+This trip was both better and worse than I had expected it to be. It felt important for me to go, and I'm glad that I went. I'm well aware that it's not a normal thing for a software company to sponsor a trip like this. I'm grateful and I look forward to any other surprises in store.
