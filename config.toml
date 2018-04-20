@@ -51,7 +51,7 @@ pygmentsCodefencesGuessSyntax = true
 
  [[menu.main]]
     name = "Projects"
-    url = "/page/projects"
+    url = "/project"
     weight = 2
 
 [[menu.main]]
@@ -61,5 +61,5 @@ pygmentsCodefencesGuessSyntax = true
 
 [[menu.main]]
     name = "About"
-    url = "/page/about"
+    url = "/about"
     weight = 3
