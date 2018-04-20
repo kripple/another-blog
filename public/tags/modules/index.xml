@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Modules on Kelly Ripple</title>
+    <link>https://kripple.github.io/tags/modules/</link>
+    <description>Recent content in Modules on Kelly Ripple</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>kelly.ripple@bti360.com (Kelly Ripple)</managingEditor>
+    <webMaster>kelly.ripple@bti360.com (Kelly Ripple)</webMaster>
+    <lastBuildDate>Mon, 22 Jun 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://kripple.github.io/tags/modules/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ruby Building Blocks</title>
+      <link>https://kripple.github.io/post/ruby-building-blocks/</link>
+      <pubDate>Mon, 22 Jun 2015 00:00:00 +0000</pubDate>
+      <author>kelly.ripple@bti360.com (Kelly Ripple)</author>
+      <guid>https://kripple.github.io/post/ruby-building-blocks/</guid>
+      <description>I feel like a toddler. My brain hurts and nothing makes sense. The internet insists on explaining things to me like I already know things. Dear Internet, I most certainly do not. I have included here the stuff that did make sense. May these humble building blocks aid you in your own pursuit of understanding.
+Modules vs. Classes From my blog post on the map method, a module is a way of grouping together methods, classes, and constants - a collection of reuseable code.</description>
+    </item>
+    
+  </channel>
+</rss>

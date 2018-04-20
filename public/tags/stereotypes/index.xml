@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stereotypes on Kelly Ripple</title>
+    <link>https://kripple.github.io/tags/stereotypes/</link>
+    <description>Recent content in Stereotypes on Kelly Ripple</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>kelly.ripple@bti360.com (Kelly Ripple)</managingEditor>
+    <webMaster>kelly.ripple@bti360.com (Kelly Ripple)</webMaster>
+    <lastBuildDate>Mon, 06 Jul 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://kripple.github.io/tags/stereotypes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Fighting the Good Fight</title>
+      <link>https://kripple.github.io/post/fighting-the-good-fight/</link>
+      <pubDate>Mon, 06 Jul 2015 00:00:00 +0000</pubDate>
+      <author>kelly.ripple@bti360.com (Kelly Ripple)</author>
+      <guid>https://kripple.github.io/post/fighting-the-good-fight/</guid>
+      <description>Last week, I reflected on Stereotype Threat and the DevBootcamp educational experience. This week, I&amp;rsquo;ll take it a step further and discuss how to fight stereotype threat and other nasties like the imposter syndrome.
+A little bit about me - I pursued an engineering degree from a well respected educational institution. I had a number of classes where I was the only female in the room. None of my engineering classes even approached a 50&amp;frasl;50 M-to-F ratio.</description>
+    </item>
+    
+    <item>
+      <title>Stereotype Threat</title>
+      <link>https://kripple.github.io/post/stereotype-threat/</link>
+      <pubDate>Mon, 22 Jun 2015 00:00:00 +0000</pubDate>
+      <author>kelly.ripple@bti360.com (Kelly Ripple)</author>
+      <guid>https://kripple.github.io/post/stereotype-threat/</guid>
+      <description>Preface One reason I love Dev Bootcamp is it&amp;rsquo;s holistic education of the whole individual. They&amp;rsquo;ve taken on the task of educating people about the world they will need to be able to work in. They don&amp;rsquo;t produce programmers that are only suited to programming in a vacuum, but developers capable of interacting with other developers and dealing wih the cultural climate of the day. They&amp;rsquo;re comitted to teaching skills beyond the technical - they teach social awareness skills - and in so doing, they treat the student as an inlelligent, aware person, not a tool suited to performing a specific kind of task.</description>
+    </item>
+    
+  </channel>
+</rss>

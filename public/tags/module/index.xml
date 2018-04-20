@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Module on Kelly Ripple</title>
+    <link>https://kripple.github.io/tags/module/</link>
+    <description>Recent content in Module on Kelly Ripple</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>kelly.ripple@bti360.com (Kelly Ripple)</managingEditor>
+    <webMaster>kelly.ripple@bti360.com (Kelly Ripple)</webMaster>
+    <lastBuildDate>Sun, 14 Jun 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://kripple.github.io/tags/module/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Method: Map</title>
+      <link>https://kripple.github.io/post/method-map/</link>
+      <pubDate>Sun, 14 Jun 2015 00:00:00 +0000</pubDate>
+      <author>kelly.ripple@bti360.com (Kelly Ripple)</author>
+      <guid>https://kripple.github.io/post/method-map/</guid>
+      <description>I&amp;rsquo;m quite new to the realm of Ruby. Don&amp;rsquo;t get me wrong, I&amp;rsquo;m a hughe fan. There are just a few things (many, many things) that I don&amp;rsquo;t quite understand yet. I&amp;rsquo;m going to throw some concept descriptions down below, but just so you know where I&amp;rsquo;m going with this - this post is about the Ruby &amp;lsquo;map&amp;rsquo; method. It&amp;rsquo;s a super-simple, super-useful method. See below for descriptions and examples.</description>
+    </item>
+    
+  </channel>
+</rss>
