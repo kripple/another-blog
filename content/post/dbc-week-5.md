@@ -12,8 +12,11 @@ We had our weekend code reviewed today. The session was positive and encouraging
 
 Today we covered basic javascript and relaxed a little. Some of us went to EscapeTheRoom - Spaceship Edition and managed to solve all of the riddles and puzzles before our hour was up. Apparently only 25% of groups 'escape the room' in 60 minutes ... go team Fireflies!
 
+![Team photo](/img/escape-the-room.png)
+<p style="text-align: center; font-size: small;">
+  The Happiest Nerds on Earth
+</p>
 
-The Happiest Nerds on Earth
 ## Tuesday, 6:11 PM - Somehow, still moving forward
 I am beat. I'm an introvert, and I din't get my prized solo time this weekend to recharge. It's starting to get to me. JS/JQuery is not nearly as difficult for me as Sinatra was. We're learning AJAX tomorrow, which is JS' version of Sinatra, so I expect to be lost once again in the seas of binary. Most of the cohort is dragging, so I don't feel too bad about my energy level.
 

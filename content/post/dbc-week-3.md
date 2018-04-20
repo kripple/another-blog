@@ -33,8 +33,11 @@ Good news! Independent analysis says that I can program in Ruby. And it only too
 
 We had an assement this morning and then had our code reviewed in the afternoon. The reasoning behind this exercise was to determine if we had learned Ruby well enough to succeed in the next two phases at DBC. The feedback I got was "Fantastic job, I see no problems." I recieved what's called a "hard pass" in DBC Land. What this means is that next week I'll be moving on to Phase 2 with the rest of my cohort that also received a pass. Cue cookie celebration.
 
+![Insomnia Cookies](/img/cookies.png)
+<p style="text-align: center; font-size: small;">
+  Mmm ... cookies
+</p>
 
-Mmm ... cookies
 I didn't have any panic attacks around how everyone else was doing, though DBC did include a helpful page on what to do if panic were to happen. They think of everything, these people. Also of note - I learned how to test output within Rspec, instead of working from the source file. Great Test Driven Development (TDD) moment.
 
 ## Thursday, 6:30 PM - You Live, You Learn
