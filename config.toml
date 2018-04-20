@@ -1,4 +1,4 @@
-baseurl = "http://kellyripple.com"
+baseurl = "https://kripple.github.io/blog"
 DefaultContentLanguage = "en"
 title = "Kelly Ripple"
 theme = "beautifulhugo"
