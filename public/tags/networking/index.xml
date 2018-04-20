@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Networking on Kelly Ripple</title>
+    <link>https://kripple.github.io/tags/networking/</link>
+    <description>Recent content in Networking on Kelly Ripple</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>kelly.ripple@bti360.com (Kelly Ripple)</managingEditor>
+    <webMaster>kelly.ripple@bti360.com (Kelly Ripple)</webMaster>
+    <lastBuildDate>Mon, 13 Jul 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://kripple.github.io/tags/networking/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How the Internet Works</title>
+      <link>https://kripple.github.io/post/how-the-internet-works/</link>
+      <pubDate>Mon, 13 Jul 2015 00:00:00 +0000</pubDate>
+      <author>kelly.ripple@bti360.com (Kelly Ripple)</author>
+      <guid>https://kripple.github.io/post/how-the-internet-works/</guid>
+      <description>As an aspiring web developer, I acknowledge that the internet will play a large role in my future. But, what is the internet, and how does it work? I like the explanation in this youtube video. Let me summarize.
+The internet is a wire in the ground. The first time people had the bright idea to send messages quickly through wires, they laid lots of copper in the ground. We called the invention the telephone, perhaps you have heard of it.</description>
+    </item>
+    
+  </channel>
+</rss>

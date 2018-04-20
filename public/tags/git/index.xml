@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Git on Kelly Ripple</title>
+    <link>https://kripple.github.io/tags/git/</link>
+    <description>Recent content in Git on Kelly Ripple</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>kelly.ripple@bti360.com (Kelly Ripple)</managingEditor>
+    <webMaster>kelly.ripple@bti360.com (Kelly Ripple)</webMaster>
+    <lastBuildDate>Sun, 24 May 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://kripple.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Git vs. Github</title>
+      <link>https://kripple.github.io/post/git-vs-github/</link>
+      <pubDate>Sun, 24 May 2015 00:00:00 +0000</pubDate>
+      <author>kelly.ripple@bti360.com (Kelly Ripple)</author>
+      <guid>https://kripple.github.io/post/git-vs-github/</guid>
+      <description>Hello reader! This is my first blog post EVER, so please be generous with your feedback, should you have any.
+Let me start off by saying that Git and Github are completely different things, I know, I was shocked too. People throw around the word &amp;lsquo;Github&amp;rsquo; enough that it starts to seem more magical than it really is. Github.com is just a website. It functions a lot like Dropbox - a place to remotely store things.</description>
+    </item>
+    
+  </channel>
+</rss>

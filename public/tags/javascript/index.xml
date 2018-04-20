@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Javascript on Kelly Ripple</title>
+    <link>https://kripple.github.io/tags/javascript/</link>
+    <description>Recent content in Javascript on Kelly Ripple</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>kelly.ripple@bti360.com (Kelly Ripple)</managingEditor>
+    <webMaster>kelly.ripple@bti360.com (Kelly Ripple)</webMaster>
+    <lastBuildDate>Sun, 12 Jul 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://kripple.github.io/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ruby vs. Javascript</title>
+      <link>https://kripple.github.io/post/ruby-vs-javascript/</link>
+      <pubDate>Sun, 12 Jul 2015 00:00:00 +0000</pubDate>
+      <author>kelly.ripple@bti360.com (Kelly Ripple)</author>
+      <guid>https://kripple.github.io/post/ruby-vs-javascript/</guid>
+      <description>I used JavaScript for the first time this week (woo!). This post will be about JavaScript, the programming language, and how it differs in syntax and useability from a few other languages.
+I first learned how to program in high school. The year was 2007 and the language was Visual Basic. To me, it was a simple, easy to use, easy to learn language. In college I learned C, along with the basics of computer organization and machine languages.</description>
+    </item>
+    
+  </channel>
+</rss>

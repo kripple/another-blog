@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>Hash-tastic</title>
+  <meta property="og:title" content="Hash-tastic" />
+  <meta name="twitter:title" content="Hash-tastic" />
+  <meta name="description" content="This week I learned about the glorious data storage object that is the Hash. The following will be some fun information on how to differentiate, define, and reference arrays and hashes. Arrays and hashes are both constucts used for data storage. Their construction and syntax are different, so depending on what you&rsquo;re trying to do, one will likely be better than the other for specific applications.
+Define Array Ordered, iteger-indexed collections of any object.">
+  <meta property="og:description" content="This week I learned about the glorious data storage object that is the Hash. The following will be some fun information on how to differentiate, define, and reference arrays and hashes. Arrays and hashes are both constucts used for data storage. Their construction and syntax are different, so depending on what you&rsquo;re trying to do, one will likely be better than the other for specific applications.
+Define Array Ordered, iteger-indexed collections of any object.">
+  <meta name="twitter:description" content="This week I learned about the glorious data storage object that is the Hash. The following will be some fun information on how to differentiate, define, and reference arrays and hashes. Arrays and …">
+  <meta name="author" content="Kelly Ripple"/>
+  <link href='https://kripple.github.io/img/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta property="og:image" content="https://kripple.github.io/img/avatar-icon.png" />
+  <meta name="twitter:image" content="https://kripple.github.io/img/avatar-icon.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@krippleffect" />
+  <meta name="twitter:creator" content="@krippleffect" />
+  <meta property="og:url" content="https://kripple.github.io/post/hashtastic/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Kelly Ripple" />
+
+  <meta name="generator" content="Hugo 0.39" />
+  <link rel="canonical" href="https://kripple.github.io/post/hashtastic/" />
+  <link rel="alternate" href="https://kripple.github.io/index.xml" type="application/rss+xml" title="Kelly Ripple">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://kripple.github.io/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+  <link rel="stylesheet" href="https://kripple.github.io/css/highlight.min.css" /><link rel="stylesheet" href="https://kripple.github.io/css/codeblock.css" />
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
+
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+</head>
+
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://kripple.github.io">Kelly Ripple</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="Blog" href="/">Blog</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Projects" href="/page/projects">Projects</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="About" href="/page/about">About</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Tags" href="/tags">Tags</a>
+            </li>
+          
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    <div class="avatar-container">
+      <div class="avatar-img-border">
+        
+          <a title="Kelly Ripple" href="https://kripple.github.io">
+            <img class="avatar-img" src="https://kripple.github.io/img/avatar-icon.png" alt="Kelly Ripple" />
+          </a>
+        
+      </div>
+    </div>
+
+  </div>
+</nav>
+
+
+
+
+    
+  
+  
+  
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    <div class="intro-header no-img">
+      
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="post-heading">
+              <h1>Hash-tastic</h1>
+                
+                
+                  <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on June 8, 2015
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 3 minutes (461 words)
+  
+  
+</span>
+
+
+                
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        
+
+<p>This week I learned about the glorious data storage object that is the Hash. The following will be some fun information on how to differentiate, define, and reference arrays and hashes. Arrays and hashes are both constucts used for data storage. Their construction and syntax are different, so depending on what you&rsquo;re trying to do, one will likely be better than the other for specific applications.</p>
+
+<h1 id="define">Define</h1>
+
+<h3 id="array">Array</h3>
+
+<p>Ordered, iteger-indexed collections of any object. Array indexing starts at <code>0</code> and goes to <code>(n-1)</code>, where n is the number of array indices. A negative index is assumed to be relative to the end of the array—that is, an index of <code>-1</code> indicates the last element of the array, <code>-2</code> is the next to last element in the array, and so on.</p>
+
+<h3 id="hash">Hash</h3>
+
+<p>A collection of key-value pairs. Indexing is done via arbitrary keys of any object type. Hashes order their values in the sequence that the corresponding keys were inserted. By default, hashes return <code>'nil'</code> when accessing keys that do not exist in the hash. It&rsquo;s possible to define this value to something other than <code>'nil'</code> (see below).</p>
+
+<h1 id="create">Create</h1>
+
+<p><code>Array.new</code> is functionally the same as <code>array = []</code> for creating a new array, except <code>Array.new</code> has some fun options for initializing the array however you like. For example:</p>
+<div class="highlight"><pre class="chroma"><code class="language-ruby" data-lang="ruby"><span class="nb">Array</span><span class="o">.</span><span class="n">new</span> <span class="c1"># =&gt; []</span>
+<span class="nb">Array</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span> <span class="c1"># =&gt; [nil,nil]</span>
+<span class="nb">Array</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="s2">&#34;apple&#34;</span><span class="p">)</span> <span class="c1"># =&gt; [&#34;apple&#34;,&#34;apple&#34;,&#34;apple&#34;]</span></code></pre></div>
+<p>Or the following:</p>
+<div class="highlight"><pre class="chroma"><code class="language-ruby" data-lang="ruby"><span class="n">example_array</span> <span class="o">=</span> <span class="o">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="o">]</span>
+<span class="n">copycat_array</span> <span class="o">=</span> <span class="nb">Array</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="n">example_array</span><span class="p">)</span> <span class="c1"># =&gt; [1,2,3]</span></code></pre></div>
+<p>The procedure for creating a new hash is all but identical: <code>Hash.new</code>, or <code>hash = {}</code>. Similarly, Hash.new can do the following:</p>
+<div class="highlight"><pre class="chroma"><code class="language-ruby" data-lang="ruby"><span class="no">Hash</span><span class="o">.</span><span class="n">new</span> <span class="c1"># =&gt; {}</span>
+<span class="no">Hash</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span> <span class="c1"># =&gt; {}</span>
+<span class="no">Hash</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="s2">&#34;apple&#34;</span><span class="p">)</span> <span class="c1"># =&gt; probably a syntax error (don&#39;t do this)</span></code></pre></div>
+<p>The <code>Hash.new(argument)</code> is the default value for accessing keys that do not exist in the hash. If you were to create an empty hash with the argument &lsquo;2&rsquo;, and then try to access a nonexistent key (since our hash is empty in this example, ALL keys are nonexistent), the hash would return &lsquo;2&rsquo; instead of returning &lsquo;nil&rsquo;.</p>
+
+<h1 id="access">Access</h1>
+
+<p>This is the easiest part:</p>
+<div class="highlight"><pre class="chroma"><code class="language-ruby" data-lang="ruby"><span class="nb">puts</span> <span class="n">array</span><span class="o">[</span><span class="n">integer</span><span class="o">]</span> <span class="c1"># =&gt; value of the array at the specified integer </span>
+<span class="nb">puts</span> <span class="nb">hash</span><span class="o">[</span><span class="s2">&#34;key&#34;</span><span class="o">]</span> <span class="c1"># =&gt; value of the hash at the specified key</span></code></pre></div>
+<p>Arrays have integer index-value pairs, hashes have key-value pairs. Try creating and then accessing array/hash values at indices/keys that do not exist. That way, you&rsquo;ll be able to recognize it if you ever do it unintentionally.</p>
+
+<h1 id="bonus">Bonus</h1>
+<div class="highlight"><pre class="chroma"><code class="language-ruby" data-lang="ruby"><span class="nb">puts</span> <span class="n">array</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="n">value</span><span class="p">)</span> <span class="c1"># =&gt; index of the array at the specified value</span>
+<span class="nb">puts</span> <span class="nb">hash</span><span class="o">.</span><span class="n">key</span><span class="p">(</span><span class="n">value</span><span class="p">)</span> <span class="c1"># =&gt; key of the hash at the specified value</span></code></pre></div>
+<p>For duplicate values at different indices/keys, the above two statements will return the first index/key that corresponds to the specified value. But don&rsquo;t take my word for it, try it for yourself!</p>
+
+
+        
+          <div class="blog-tags">
+            
+              <a href="https://kripple.github.io/tags/ruby/">ruby</a>&nbsp;
+            
+              <a href="https://kripple.github.io/tags/hash/">hash</a>&nbsp;
+            
+              <a href="https://kripple.github.io/tags/array/">array</a>&nbsp;
+            
+          </div>
+        
+
+        
+      </article>
+
+      
+        <ul class="pager blog-pager">
+          
+            <li class="previous">
+              <a href="https://kripple.github.io/post/css-madness/" data-toggle="tooltip" data-placement="top" title="CSS Madness">&larr; Previous Post</a>
+            </li>
+          
+          
+            <li class="next">
+              <a href="https://kripple.github.io/post/thinking-about-thinking/" data-toggle="tooltip" data-placement="top" title="Thinking About Thinking">Next Post &rarr;</a>
+            </li>
+          
+        </ul>
+      
+
+
+      
+        
+        
+      
+
+    </div>
+  </div>
+</div>
+
+    <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+                <a href="mailto:kelly.ripple@bti360.com" title="Email me">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/kripple" title="GitHub">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/krippleffect" title="Twitter">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+            
+              <a href="kellyripple.com">Kelly Ripple</a>
+            
+          
+
+          &nbsp;&bull;&nbsp;
+          2016
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="https://kripple.github.io">Kelly Ripple</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          <a href="http://gohugo.io">Hugo v0.39</a> powered &nbsp;&bull;&nbsp; Theme by <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a> adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js" integrity="sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/contrib/auto-render.min.js" integrity="sha384-dq1/gEHSxPZQ7DdrM82ID4YVol9BYyU7GbWlIwnwyPzotpoc57wDw/guX8EaYGPx" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://kripple.github.io/js/main.js"></script>
+<script src="https://kripple.github.io/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> $(document).ready(function() {$("pre.chroma").css("padding","0");}); </script><script> renderMathInElement(document.body); </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script>
+<script src="https://kripple.github.io/js/load-photoswipe.js"></script>
+
+
+
+
+
+
+  </body>
+</html>
+

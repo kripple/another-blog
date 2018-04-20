@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Culture on Kelly Ripple</title>
+    <link>https://kripple.github.io/tags/culture/</link>
+    <description>Recent content in Culture on Kelly Ripple</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>kelly.ripple@bti360.com (Kelly Ripple)</managingEditor>
+    <webMaster>kelly.ripple@bti360.com (Kelly Ripple)</webMaster>
+    <lastBuildDate>Wed, 22 Jul 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://kripple.github.io/tags/culture/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Questions</title>
+      <link>https://kripple.github.io/post/questions/</link>
+      <pubDate>Wed, 22 Jul 2015 00:00:00 +0000</pubDate>
+      <author>kelly.ripple@bti360.com (Kelly Ripple)</author>
+      <guid>https://kripple.github.io/post/questions/</guid>
+      <description>This week&amp;rsquo;s cultural reflection piece is about asking good questions. Here&amp;rsquo;s what I know about questions:
+ Asking for help is about connection. It makes the asker vulnerable to their audience. The asker needs to trust that the askee (or group at large) will want to help them. Without trust and the willingness to be vulnerable, questions will not be as effective. Some of the most important questions are the ones we ask ourselves.</description>
+    </item>
+    
+    <item>
+      <title>Stereotype Threat</title>
+      <link>https://kripple.github.io/post/stereotype-threat/</link>
+      <pubDate>Mon, 22 Jun 2015 00:00:00 +0000</pubDate>
+      <author>kelly.ripple@bti360.com (Kelly Ripple)</author>
+      <guid>https://kripple.github.io/post/stereotype-threat/</guid>
+      <description>Preface One reason I love Dev Bootcamp is it&amp;rsquo;s holistic education of the whole individual. They&amp;rsquo;ve taken on the task of educating people about the world they will need to be able to work in. They don&amp;rsquo;t produce programmers that are only suited to programming in a vacuum, but developers capable of interacting with other developers and dealing wih the cultural climate of the day. They&amp;rsquo;re comitted to teaching skills beyond the technical - they teach social awareness skills - and in so doing, they treat the student as an inlelligent, aware person, not a tool suited to performing a specific kind of task.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Css on Kelly Ripple</title>
+    <link>https://kripple.github.io/tags/css/</link>
+    <description>Recent content in Css on Kelly Ripple</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>kelly.ripple@bti360.com (Kelly Ripple)</managingEditor>
+    <webMaster>kelly.ripple@bti360.com (Kelly Ripple)</webMaster>
+    <lastBuildDate>Sat, 30 May 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://kripple.github.io/tags/css/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CSS Madness</title>
+      <link>https://kripple.github.io/post/css-madness/</link>
+      <pubDate>Sat, 30 May 2015 00:00:00 +0000</pubDate>
+      <author>kelly.ripple@bti360.com (Kelly Ripple)</author>
+      <guid>https://kripple.github.io/post/css-madness/</guid>
+      <description>I spent the past week learning HTML and CSS, having zero prior experience with either. With the right guidance, it&amp;rsquo;s surprisingly doable. No learning experience is complete without some moments of struggle, and I had plenty. Hopefully you will be able to benefit from my pain. The two worst positioning nightmares I came accross were position:relative/absolute/fixed and display:inline/block/inline-block. I&amp;rsquo;ll run through the definitions of each, and include my advice on using the things.</description>
+    </item>
+    
+  </channel>
+</rss>

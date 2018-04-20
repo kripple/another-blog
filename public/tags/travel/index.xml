@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Travel on Kelly Ripple</title>
+    <link>https://kripple.github.io/tags/travel/</link>
+    <description>Recent content in Travel on Kelly Ripple</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>kelly.ripple@bti360.com (Kelly Ripple)</managingEditor>
+    <webMaster>kelly.ripple@bti360.com (Kelly Ripple)</webMaster>
+    <lastBuildDate>Tue, 07 Jun 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://kripple.github.io/tags/travel/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>BTI Goes International</title>
+      <link>https://kripple.github.io/post/bti-goes-international/</link>
+      <pubDate>Tue, 07 Jun 2016 00:00:00 +0000</pubDate>
+      <author>kelly.ripple@bti360.com (Kelly Ripple)</author>
+      <guid>https://kripple.github.io/post/bti-goes-international/</guid>
+      <description>I started with BTI in January. On June 1st, a mere five months later, I found myself on a fully funded international plane ride to the Dominican Republic, alongside an assorted group of BTI teammates and their spouses. Why in the world did BTI send us to the DR, you may ask? We returned to the states a few days ago, and I think I may have a few of the answers.</description>
+    </item>
+    
+  </channel>
+</rss>
