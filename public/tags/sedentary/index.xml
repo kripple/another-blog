@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sedentary on Kelly Ripple</title>
+    <link>https://kripple.github.io/tags/sedentary/</link>
+    <description>Recent content in Sedentary on Kelly Ripple</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>kelly.ripple@bti360.com (Kelly Ripple)</managingEditor>
+    <webMaster>kelly.ripple@bti360.com (Kelly Ripple)</webMaster>
+    <lastBuildDate>Sun, 14 Jun 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://kripple.github.io/tags/sedentary/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sitting is Bad for You</title>
+      <link>https://kripple.github.io/post/sitting-is-bad/</link>
+      <pubDate>Sun, 14 Jun 2015 00:00:00 +0000</pubDate>
+      <author>kelly.ripple@bti360.com (Kelly Ripple)</author>
+      <guid>https://kripple.github.io/post/sitting-is-bad/</guid>
+      <description>This week&amp;rsquo;s cultural blogging assignment was to reflect on one of the various issues facing the tech industry. Suggestions included &amp;lsquo;Diversity in Tech&amp;rsquo;, &amp;lsquo;Designing for Accessibility&amp;rsquo;, and &amp;lsquo;Online Security&amp;rsquo;. I decided to approach the question from a broader perspective. I think that one of the most prevalent issues in the tech industry today (and in many other industries, besides) is cultivating optimal physical health while suceeding at work in a traditional desk job environment.</description>
+    </item>
+    
+  </channel>
+</rss>
