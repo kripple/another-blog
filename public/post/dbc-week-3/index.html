@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>Dev Bootcamp: Phase 1, Week 3</title>
+  <meta property="og:title" content="Dev Bootcamp: Phase 1, Week 3" />
+  <meta name="twitter:title" content="Dev Bootcamp: Phase 1, Week 3" />
+  <meta name="description" content="Monday, 10:00 PM - Monday Funday I feel like I&rsquo;m finally setting into a rhythm. Today we learned SQL - a database query language. It&rsquo;s got some quirks, but it&rsquo;s fairly straightforward for the most part and we got plenty of repitition in today. I feel as though I have a sense for it now, even if I don&rsquo;t always understand why a complicated query works.
+We had a party in the evening today and last week we had an Alumni AMA.">
+  <meta property="og:description" content="Monday, 10:00 PM - Monday Funday I feel like I&rsquo;m finally setting into a rhythm. Today we learned SQL - a database query language. It&rsquo;s got some quirks, but it&rsquo;s fairly straightforward for the most part and we got plenty of repitition in today. I feel as though I have a sense for it now, even if I don&rsquo;t always understand why a complicated query works.
+We had a party in the evening today and last week we had an Alumni AMA.">
+  <meta name="twitter:description" content="Monday, 10:00 PM - Monday Funday I feel like I&rsquo;m finally setting into a rhythm. Today we learned SQL - a database query language. It&rsquo;s got some quirks, but it&rsquo;s fairly …">
+  <meta name="author" content="Kelly Ripple"/>
+  <link href='https://kripple.github.io/img/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta property="og:image" content="https://kripple.github.io/img/avatar-icon.png" />
+  <meta name="twitter:image" content="https://kripple.github.io/img/avatar-icon.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@krippleffect" />
+  <meta name="twitter:creator" content="@krippleffect" />
+  <meta property="og:url" content="https://kripple.github.io/post/dbc-week-3/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Kelly Ripple" />
+
+  <meta name="generator" content="Hugo 0.39" />
+  <link rel="canonical" href="https://kripple.github.io/post/dbc-week-3/" />
+  <link rel="alternate" href="https://kripple.github.io/index.xml" type="application/rss+xml" title="Kelly Ripple">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://kripple.github.io/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+  <link rel="stylesheet" href="https://kripple.github.io/css/highlight.min.css" /><link rel="stylesheet" href="https://kripple.github.io/css/codeblock.css" />
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
+
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+</head>
+
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://kripple.github.io">Kelly Ripple</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="Blog" href="/">Blog</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Projects" href="/page/projects">Projects</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="About" href="/page/about">About</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Tags" href="/tags">Tags</a>
+            </li>
+          
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    <div class="avatar-container">
+      <div class="avatar-img-border">
+        
+          <a title="Kelly Ripple" href="https://kripple.github.io">
+            <img class="avatar-img" src="https://kripple.github.io/img/avatar-icon.png" alt="Kelly Ripple" />
+          </a>
+        
+      </div>
+    </div>
+
+  </div>
+</nav>
+
+
+
+
+    
+  
+  
+  
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    <div class="intro-header no-img">
+      
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="post-heading">
+              <h1>Dev Bootcamp: Phase 1, Week 3</h1>
+                
+                
+                  <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on August 15, 2015
+  
+  
+  &nbsp;|&nbsp;
+  <i class="fa fa-clock-o"></i> 6 minutes (1230 words)
+  
+  
+</span>
+
+
+                
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        
+
+<h2 id="monday-10-00-pm-monday-funday">Monday, 10:00 PM - Monday Funday</h2>
+
+<p>I feel like I&rsquo;m finally setting into a rhythm. Today we learned SQL - a database query language. It&rsquo;s got some quirks, but it&rsquo;s fairly straightforward for the most part and we got plenty of repitition in today. I feel as though I have a sense for it now, even if I don&rsquo;t always understand why a complicated query works.</p>
+
+<p>We had a party in the evening today and last week we had an Alumni AMA. It&rsquo;s one thing to get the pitch for how awesome the DBC experience is upfront, to get it at regular intervals is such a blessing. This way when I&rsquo;m struggling, I have a great reminder of why I applied in the first place. No matter where I go after DBC, I want to be invloved in recruitment events for this very reason.</p>
+
+<p>My pair today was awesome. The topic was super boring, but since my pair had a sense of humor, it sucked less :).</p>
+
+<h2 id="tuesday-11-15-pm-microaggressions">Tuesday, 11:15 PM - Microaggressions</h2>
+
+<p>I learned something new about DBC today - they&rsquo;re teaching us how to learn (by giving us more and more challenging tasks with less and less initial guidance).</p>
+
+<p>We did SQL + Ruby today. No lecture, just tasks. We got to exercise our learning chops to figure it out. I&rsquo;m mostly pleased with how my pair and I did today, but I always feel that I could have done better on days that I don&rsquo;t finish all the challenges.</p>
+
+<p>We had a difficult Engineering Empathy session today. It was on <a href="https://en.wikipedia.org/wiki/Microaggression_theory">microagressions</a>. Microaggressions are:</p>
+
+<blockquote>
+<p>&ldquo;Brief, everyday exchanges that send denigrating messages to certain individuals because of their group membership. &hellip; Microaggressions generally happenen below the level of awareness of well-intentioned members of the dominant culture. They are considered to be different from overt, deliberate acts of bigotry, such as the use of racist epithets, because the people perpetrating microaggressions often intend no offense and are unaware they are causing harm.&rdquo;</p>
+</blockquote>
+
+<p>Key points: everyday, unintentional, causes trauma. Microaggressions most commonly occur on the basis of race, gender, sexuality, or class. There are three main types of microaggressions: silencing, othering, and gaslighting. It makes me very sad that I did not learn about these things until now. As a woman I have experienced plenty of microaggressions, I&rsquo;ve just accepted it as the way of things and continued on with my life. This is my first experience disussing this issue in a forum that treats it as something that can be addressed or influenced to change. I&rsquo;m grateful for the conversation and I think I&rsquo;m still in shock at how much of this has impacted my life.
+I don&rsquo;t know what to do about the anger and powerlessness that I feel. What was hardest for me to learn was that some of my cohort-mates had no basis for understanding this problem - they had never experienced microaggresion because they had always belonged to the dominant social group. I can see why someone in a position of power would ignore the effects of injustice. I know becuase I&rsquo;ve done it myself. It&rsquo;s easy to take advantage of the situation and look the other way when you&rsquo;re getting the better end of the stick. That being said, without, at a minimum, a desire to understand, I have no idea what I can possibly do to address this issue. It was the first time at DBC that I didn&rsquo;t feel like an equal.</p>
+
+<p>I&rsquo;m left feeling hopelessly powerless and fruitlessly, miserably angry. I guess all I can do is gather allies, speak to microaggressions when they occur in my own life, and come up with some common ground or universal justification for why we should fix this besides my own suffering. I need to work on my language around this issue, and think up some relatable, accessible, non-inflammatory examples.</p>
+
+<p>I have my checkpoint challenge tomorrow. I may need to teach myself some things on the fly (which is to say, I don&rsquo;t feel 100% prepared). I may finish, I may not, but I will do my best to come into it with a good attitude. (Good luck to me!)</p>
+
+<h2 id="wednesday-4-41-pm-assesments">Wednesday, 4:41 PM - Assesments</h2>
+
+<p>Good news! Independent analysis says that I can program in Ruby. And it only took 12 weeks!</p>
+
+<p>We had an assement this morning and then had our code reviewed in the afternoon. The reasoning behind this exercise was to determine if we had learned Ruby well enough to succeed in the next two phases at DBC. The feedback I got was &ldquo;Fantastic job, I see no problems.&rdquo; I recieved what&rsquo;s called a &ldquo;hard pass&rdquo; in DBC Land. What this means is that next week I&rsquo;ll be moving on to Phase 2 with the rest of my cohort that also received a pass. Cue cookie celebration.</p>
+
+<p><img src="/img/cookies.png" alt="Insomnia Cookies" />
+<p style="text-align: center; font-size: small;">
+  Mmm &hellip; cookies
+</p></p>
+
+<p>I didn&rsquo;t have any panic attacks around how everyone else was doing, though DBC did include a helpful page on what to do if panic were to happen. They think of everything, these people. Also of note - I learned how to test output within Rspec, instead of working from the source file. Great Test Driven Development (TDD) moment.</p>
+
+<h2 id="thursday-6-30-pm-you-live-you-learn">Thursday, 6:30 PM - You Live, You Learn</h2>
+
+<p>Today was so, so bad. I woke up on the wrong side of the bed, my roomate stole the bathroom and I was late &hellip; I felt completely awful all day. I made it through the day, tomorrow&rsquo;s friday, there&rsquo;s a party. My pair and I (thank god to him for putting up with my poor mood) make some solid strides in using ActiveRecord / Rails? / Ruby + SQL.</p>
+
+<p>I&rsquo;m unsure where my happy-go-lucky-ness has gone. Today, it&rsquo;s important for me to remember that I always try my best, even when my best is a piss-poor attitude and a brain like mud. I hate feeling dumb. We&rsquo;re learning new material and that&rsquo;s hard. It&rsquo;s hard, there&rsquo;s a lot of struggle, and a lot of insecurity. Tomorrow will be better, I&rsquo;m sure of it. There are ups and downs, and it just so happens that today was a &lsquo;down.&rsquo;</p>
+
+<p>Something I learned about meta-learning:</p>
+
+<p>Asking the right questions is as much a skill as knowing the correct syntax. It improves with domain specific experience. But I realized that I shortchange myself when I have a problem (moreso when I&rsquo;m tired or not feeling at my best). I assume that I&rsquo;m dumb, and that someone &lsquo;smarter&rsquo; will know the answer. In reality, someone willing to think about the problem, about the potential questions, and the potential solutions will have a good chance of finding the answer. Reminder to self not to automatically assume I&rsquo;m not capable when I get stuck.</p>
+
+<h2 id="saturday-12-00-pm-time-to-celebrate">Saturday, 12:00 PM - Time to Celebrate</h2>
+
+<p>Friday we celebrated the #bumblegrads</p>
+
+<p>The Bumblebee cohort demo-ed their final projects - fully functional webapps, built from the ground up in 7 days. I kept thinking to myself &ldquo;I&rsquo;m supposed to do that 5 weeks from now?! I have so much learning to do &hellip;&rdquo;</p>
+
+<h2 id="final-thoughts">Final Thoughts</h2>
+
+<h3 id="what-works">What works?</h3>
+
+<ul>
+<li>Just keep swimming, just keep swimming.</li>
+</ul>
+
+<p>###What doesn&rsquo;t?
+- Trying to debug a problem without first considering why the issue may be occuring. Guess and check is a fabulous tool, but at some point rational thought is <strong>really helpful</strong>.
+- There is, unfortunately, such a thing as too many cookies.</p>
+
+
+        
+          <div class="blog-tags">
+            
+              <a href="https://kripple.github.io/tags/devbootcamp/">devbootcamp</a>&nbsp;
+            
+              <a href="https://kripple.github.io/tags/reflection/">reflection</a>&nbsp;
+            
+          </div>
+        
+
+        
+      </article>
+
+      
+        <ul class="pager blog-pager">
+          
+            <li class="previous">
+              <a href="https://kripple.github.io/post/dbc-week-2/" data-toggle="tooltip" data-placement="top" title="Dev Bootcamp: Phase 1, Week 2">&larr; Previous Post</a>
+            </li>
+          
+          
+            <li class="next">
+              <a href="https://kripple.github.io/post/dbc-week-4/" data-toggle="tooltip" data-placement="top" title="Dev Bootcamp: Phase 2, Week 1">Next Post &rarr;</a>
+            </li>
+          
+        </ul>
+      
+
+
+      
+        
+        
+      
+
+    </div>
+  </div>
+</div>
+
+    <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+                <a href="mailto:kelly.ripple@bti360.com" title="Email me">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/kripple" title="GitHub">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/krippleffect" title="Twitter">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+            
+              <a href="kellyripple.com">Kelly Ripple</a>
+            
+          
+
+          &nbsp;&bull;&nbsp;
+          2016
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="https://kripple.github.io">Kelly Ripple</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          <a href="http://gohugo.io">Hugo v0.39</a> powered &nbsp;&bull;&nbsp; Theme by <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a> adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js" integrity="sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/contrib/auto-render.min.js" integrity="sha384-dq1/gEHSxPZQ7DdrM82ID4YVol9BYyU7GbWlIwnwyPzotpoc57wDw/guX8EaYGPx" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://kripple.github.io/js/main.js"></script>
+<script src="https://kripple.github.io/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> $(document).ready(function() {$("pre.chroma").css("padding","0");}); </script><script> renderMathInElement(document.body); </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script>
+<script src="https://kripple.github.io/js/load-photoswipe.js"></script>
+
+
+
+
+
+
+  </body>
+</html>
+
